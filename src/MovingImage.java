@@ -35,6 +35,7 @@ public class MovingImage extends JFrame implements ActionListener {
             }
         };
         panel.setSize(500, 500);
+        panel.setBackground(Color.BLACK);
         getContentPane().add(panel);
         timer = new Timer(2, this);
         timer.start();
